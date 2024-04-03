@@ -1,0 +1,87 @@
+.portofilo{
+    position: relative;
+
+}
+.portofilo .prog{
+position:sticky;
+top:0;
+left:0;
+padding-top: 50px;
+text-align: center;
+color: orange;
+font-size: 36px;
+}
+@media(max-width:738px)
+{
+    
+.portofilo .prog{
+  
+   padding-top:70%;
+  font-size: 24px;
+     
+    }
+}
+.sec-cont{
+    margin-bottom: 100px;
+
+}
+.portofilo .prog .prog-bar
+{
+    height: 10px;
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.container .w{
+    width:1366px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+}
+.container .img-c{
+    flex:1;
+    width:50%;
+ 
+margin-left: 30px;
+
+}
+.container img{ 
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+}
+.container .text-c{
+    flex:1;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    
+
+
+}
+.container .text-c h2{
+    font-size: 72px;
+}
+.container .text-c p{
+    font-size: 20px;
+    color:gray;
+}
+.container .text-c button{
+   
+    background-color: orange;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    font-size: bold;
+}
